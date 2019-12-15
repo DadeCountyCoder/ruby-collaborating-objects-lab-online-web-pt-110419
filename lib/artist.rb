@@ -9,6 +9,7 @@ class Artist
 
   def self.all
     @@all
+    save
   end
 
 
