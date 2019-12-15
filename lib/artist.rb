@@ -4,7 +4,7 @@ class Artist
   
   
   def initialize(name)
-    @name = name
+    @name = name << self
   end
 
   def self.all
